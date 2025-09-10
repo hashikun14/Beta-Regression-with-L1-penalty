@@ -1,3 +1,4 @@
 # Beta-Regression-with-L1-penalty
-This project is to achieve Beta Regression with L1 penalty. The Algorithm is based on the result of Niloofar Ramezani, Martin Slawski, which can be found on https://arxiv.org/abs/2507.20079. \n
+This project is to achieve Beta Regression with L1 penalty. The Algorithm is based on the result of Niloofar Ramezani, Martin Slawski, which can be found on https://arxiv.org/abs/2507.20079. 
+
 Attention please! For the beta regression the response must in the interval of (0,1), and this condition is really strictly only in the program but also in the theorical part, because if the condition is not satisfied it means the function doesn't satisfy the Lipschitz continuity, then the series will be divergence and in the program the looping part will fail convergence. So before using the function to fit the model, check whether the responses contain values that are exactly 0 or 1！
